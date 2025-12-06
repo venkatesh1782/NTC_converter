@@ -1,0 +1,15 @@
+{
+  "name": "ntc-converter",
+  "version": "1.0.0",
+  "description": "NTC Converter Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . NTC_Converter --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "devDependencies": {
+    "@electron/packager": "^19.0.1",
+    "electron": "^27.3.11",
+    "electron-packager": "^17.1.1"
+  }
+}
